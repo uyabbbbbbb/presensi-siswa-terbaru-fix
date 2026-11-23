@@ -2,18 +2,18 @@
 
 require_once __DIR__ . '/config/Database.php';
 
-$db = new Database();
-$pdo = $db->connect();
-
 $username = "adamidun";
 $password = password_hash("giwirgiwir", PASSWORD_DEFAULT);
 
-$sql = "INSERT INTO users (username, password)
-        VALUES (:username, :password)";
-
-$stmt = $pdo->prepare($sql);
-
 try {
+    $db = new Database();
+    $pdo = $db->connect();
+
+    $sql = "INSERT INTO users (username, password)
+            VALUES (:username, :password)";
+
+    $stmt = $pdo->prepare($sql);
+
     $stmt->execute([
         'username' => $username,
         'password' => $password
