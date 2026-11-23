@@ -48,6 +48,16 @@ presensi siswa/
 │   ├── index.php
 │   ├── tap.php
 │   └── hapus.php
+├── Screenshot/
+│   ├── pw salah.png
+│   ├── ga bisa loncat ke dashboard.png
+│   ├── tambah siswa error karena ga 10 digit.png
+│   ├── nisn yang double.png
+│   ├── cari data siswa yang ga terdaftar.png
+│   ├── data siswa yang terdaftar.png
+│   ├── data kelas.png
+│   ├── data tambah siswa.png
+│   └── dashboard.png
 ├── index.php
 ├── login.php
 ├── logout.php
@@ -174,3 +184,68 @@ Website ini digunakan untuk membantu admin menyimpan dan mengatur data kelas ser
 ## Kesimpulan
 
 Aplikasi Presensi Siswa memudahkan pengelolaan data siswa, kelas, dan kehadiran dalam satu website. Simulasi tap kartu memakai NISN, sehingga presensi dapat dicatat dan dilihat kembali melalui halaman rekap. Pembagian file ke dalam beberapa folder juga membuat program lebih rapi dan mudah dipahami.
+
+## Dokumentasi Screenshot Pengujian
+
+Berikut screenshot pengujian dan tampilan aplikasi. Gambar disimpan di folder `Screenshot` pada direktori utama project.
+
+### 1. Login dengan Password Salah
+
+Pesan kesalahan ketika kredensial login tidak sesuai.
+
+![Login dengan Password Salah](Screenshot/pw%20salah.png)
+
+### 2. Akses Dashboard Tanpa Login
+
+Dokumentasi pengujian akses dashboard tanpa login.
+
+![Akses Dashboard Tanpa Login](Screenshot/ga%20bisa%20loncat%20ke%20dashboard.png)
+
+### 3. Validasi NISN Kurang dari 10 Digit
+
+Validasi format NISN saat memasukkan data siswa.
+
+![Validasi NISN Kurang dari 10 Digit](Screenshot/tambah%20siswa%20error%20karena%20ga%2010%20digit.png)
+
+### 4. NISN Tidak Sampai 10 Digit
+
+Pengujian tambahan NISN yang kurang dari 10 digit.
+
+![NISN Tidak Sampai 10 Digit](Screenshot/nisn%20ga%20sampai%2010%20digit.png)
+
+### 5. NISN Duplikat
+
+Pesan kesalahan ketika NISN sudah digunakan.
+
+![NISN Duplikat](Screenshot/nisn%20yang%20double.png)
+
+### 6. Pencarian Siswa Tidak Terdaftar
+
+Hasil pencarian ketika data siswa tidak ditemukan.
+
+![Pencarian Siswa Tidak Terdaftar](Screenshot/cari%20data%20siswa%20yang%20ga%20terdaftar.png)
+
+### 7. Data Siswa Terdaftar
+
+Tampilan hasil pencarian siswa yang terdaftar.
+
+![Data Siswa Terdaftar](Screenshot/data%20siswa%20yang%20terdaftar.png)
+
+### 8. Data Kelas
+
+Tampilan pengelolaan data kelas.
+
+![Data Kelas](Screenshot/data%20kelas.png)
+
+### 9. Form Tambah Siswa
+
+Tampilan formulir penambahan data siswa.
+
+![Form Tambah Siswa](Screenshot/data%20tambah%20siswa.png)
+
+### 10. Dashboard
+
+Tampilan halaman dashboard aplikasi.
+
+![Dashboard](Screenshot/dashboard.png)
+
