@@ -49,6 +49,8 @@ presensi siswa/
 │   ├── tap.php
 │   └── hapus.php
 ├── Screenshot/
+│   ├── Student Attendance ERD Diagram.png
+│   ├── nisn ga sampai 10 digit.png
 │   ├── pw salah.png
 │   ├── ga bisa loncat ke dashboard.png
 │   ├── tambah siswa error karena ga 10 digit.png
@@ -249,3 +251,9 @@ Tampilan halaman dashboard aplikasi.
 
 ![Dashboard](Screenshot/dashboard.png)
 
+
+### 11. Entity Relationship Diagram (ERD)
+
+Diagram ERD menggambarkan tabel `users`, `kelas`, `siswa`, dan `presensi`, serta relasi antara kelas, siswa, dan presensi.
+
+![ERD Aplikasi Presensi Siswa](Screenshot/Student%20Attendance%20ERD%20Diagram.png)
